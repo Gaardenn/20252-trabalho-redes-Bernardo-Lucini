@@ -1,0 +1,141 @@
+# Trabalho: Integração de habilidades - 2025/2
+## **Disciplina:** Redes de Computadores
+### **Cursos:** Engenharia de Computação / Tecnologia em Análise e Desenvolvimento de Sistemas
+**Nome:**
+**RA:**
+
+---
+
+## 📑 Tarefa 1: Tabela de Sub-Redes (0,5 Ponto)
+
+*Preencha o valor de **N** e **NN** com os dois últimos dígitos do seu RA.*
+
+| Sub- Rede | IPv4 - Sub-Rede | IPv4 - Máscara | IPv6 - Sub-Rede/Prefixo |
+| :---: | :---: | :---: | :---: |
+| **Pato Branco** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **Francisco Beltrão** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **Dois Vizinhos** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **Toledo** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **Medianeira** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **Santa Helena** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **pb-vit** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+| **vit-fb** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+| **fb-ita** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+| **ita-pb** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+| **ita-dv** | 200.136.**N**.*(preencher)* | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+
+---
+
+## 🖥️ Tarefa 2: Tabela de Endereçamento Lógico (0,5 Ponto)
+
+*ATENÇÃO: PCs não são endereços fixos; anote apenas os endereços estáticos dos dispositivos de infraestrutura.*
+
+| Dispositivo | Interface | IPv4 (GUA) | IPv4 - Máscara | IPv6/Prefixo (GUA) | IPv6 - Gateway (LLA) |
+| :---: | :---: | :---: | :---: | :---: | :---: |
+| **SRV-PB-DNS-DHCP** | NIC | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **SRV-PB-WEB** | NIC | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **SRV-FB-DNS-DHCP** | NIC | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **SRV-FB-WEB** | NIC | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **SRV-DV-DNS-DHCP** | NIC | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **SRV-DV-WEB** | NIC | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **Switch-Pato Branco** | SVI | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **Switch-Fco. Beltrão** | SVI | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **Switch-Dois Vizinhos** | SVI | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **Roteador-Pato Branco** | Fa0/0 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **Roteador-Pato Branco** | Se0/0/0 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 |
+| **Roteador-Pato Branco** | Se0/0/1 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 |
+| **Roteador-Fco. Beltrão** | Fa0/0 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **Roteador-Fco. Beltrão** | Se0/0/0 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 |
+| **Roteador-Fco. Beltrão** | Se0/0/1 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 |
+| **Roteador-Vitorino** | Se0/0/0 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 |
+| **Roteador-Vitorino** | Se0/0/1 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 |
+| **Roteador-Itapejara** | Se0/0/0 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 |
+| **Roteador-Itapejara** | Se0/0/1 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 |
+| **Roteador-Itapejara** | Fa0/1 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 |
+| **Roteador-Dois Vizinhos** | Fa0/0 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* |
+| **Roteador-Dois Vizinhos** | Fa0/1 | 200.136.**N**.(preencher) | 255.255.255.(preencher) | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 |
+
+---
+
+## 🗺️ Tarefa 3: Tabela de Roteamento (0,5 Ponto)
+
+> Observação: Preencher apenas as rotas estáticas para redes remotas. Lembre-se do fluxo assimétrico (PB $\rightarrow$ VT $\rightarrow$ FB e FB $\rightarrow$ ITA $\rightarrow$ PB).
+
+### Roteador Pato Branco
+
+#### IPv4
+
+| Rede de Destino | Máscara | Próximo Salto | Interface de Saída |
+| :---: | :---: | :---: | :---: |
+| (preencher) | (preencher) | (preencher) | (preencher) |
+
+#### IPv6
+
+| Rede de Destino /Prefixo | Próximo Salto | Interface de Saída |
+| :---: | :---: | :---: |
+| (preencher) | (preencher) | (preencher) |
+
+### Roteador Francisco Beltrão
+
+#### IPv4
+
+| Rede de Destino | Máscara | Próximo Salto | Interface de Saída |
+| :---: | :---: | :---: | :---: |
+| (preencher) | (preencher) | (preencher) | (preencher) |
+
+#### IPv6
+
+| Rede de Destino /Prefixo | Próximo Salto | Interface de Saída |
+| :---: | :---: | :---: |
+| (preencher) | (preencher) | (preencher) |
+
+### Roteador Vitorino
+
+#### IPv4
+
+| Rede de Destino | Máscara | Próximo Salto | Interface de Saída |
+| :---: | :---: | :---: | :---: |
+| (preencher) | (preencher) | (preencher) | (preencher) |
+
+#### IPv6
+
+| Rede de Destino /Prefixo | Próximo Salto | Interface de Saída |
+| :---: | :---: | :---: |
+| (preencher) | (preencher) | (preencher) |
+
+### Roteador Itapejara D'Oeste
+
+#### IPv4
+
+| Rede de Destino | Máscara | Próximo Salto | Interface de Saída |
+| :---: | :---: | :---: | :---: |
+| (preencher) | (preencher) | (preencher) | (preencher) |
+
+#### IPv6
+
+| Rede de Destino /Prefixo | Próximo Salto | Interface de Saída |
+| :---: | :---: | :---: |
+| (preencher) | (preencher) | (preencher) |
+
+### Roteador Dois Vizinhos
+
+#### IPv4
+
+| Rede de Destino | Máscara | Próximo Salto | Interface de Saída |
+| :---: | :---: | :---: | :---: |
+| (preencher) | (preencher) | (preencher) | (preencher) |
+
+#### IPv6
+
+| Rede de Destino /Prefixo | Próximo Salto | Interface de Saída |
+| :---: | :---: | :---: |
+| (preencher) | (preencher) | (preencher) |
+
+---
+
+### Checklist para Entrega 1
+
+- [ ] Tarefa 1: Tabela de Sub-Redes preenchida corretamente
+- [ ] Tarefa 2: Tabela de Endereçamento preenchida corretamente para todos os dispositivos de infraestrutura
+- [ ] Tarefa 3: Tabela de Roteamento completa para todos os roteadores
+- [ ] Documento salvo no formato .md
