@@ -179,20 +179,3 @@ Ative o serviço **DNS** e configure o registro Tipo A para todos os três subdo
 | **Dois Vizinhos** | `www.dv.utfpr.tec.br` | IP GUA do SRV-DV-WEB (4º IP de DV) |
 
 * **Instrução:** **CADA UM** dos três Servidores DNS deve ser configurado com o registro Tipo A para **todos os três subdomínios** listados no **Quadro 3**.
-
----
-
-
-O aluno deve seguir **EXATAMENTE** este formato em **TODOS** os roteadores:
-
-```
---------------------------------------------------------------------------
-|                                                                        |
-|                          Roteador [NOME DO ROTEADOR]                   |
-|                                                                        |
-|               ATENÇÃO Acesso Restrito a pessoas autorizadas!           |
-|                                                                        |
-|          Administrador: SEU NOME COMPLETO (email@seuemail.com)         |
-|                                                                        |
---------------------------------------------------------------------------
-```
