@@ -141,19 +141,26 @@ Esta tarefa consiste em definir e documentar as rotas estáticas necessárias em
       - Não é obrigatório documentar as redes diretamente conectadas.
 
 
-## 💻 Tarefa 4: Configuração de Serviços e Endereçamento de Servidores (1,5 Pontos)
+## 💻 Tarefa 4: Criação da Topologia no Packet Tracer (0 Pontos)
+Criar a topologia no Packet Tracer**, conforme ilustrado na [Figura 1](#figura1):
+  - Utilize *roteadores modelo 2811* (adicione uma interface WIC-2T no slot 0 para as conexões WAN) e *switches modelo 2960*, equipamentos disponíveis no laboratório de redes;
+  - Na área de trabalho de cada topologia, informe o **RA + Nome do aluno**;
+  - Recomenda-se inserir as informações de endereçamento na área de trabalho do Packet Tracer para facilitar a visualização.
+
+
+## 💻 Tarefa 5: Configuração de Serviços e Endereçamento de Servidores (1,5 Pontos)
 
 Esta tarefa exige que você configure o endereçamento estático dos Servidores de Serviços e, em seguida, configure os serviços DHCP, DNS e Web.
 
-### 4.1. Configuração do Endereçamento Estático nos Servidores (0,5 Ponto)
+### 5.1. Configuração do Endereçamento Estático nos Servidores
 
-Atribua manualmente os endereços IPv4 e IPv6 aos Servidores no Packet Tracer (Desktop $\rightarrow$ IP Configuration), utilizando as regras de endereçamento fixo definidas no **Quadro 1**:
+Atribua manualmente os endereços IPv4 e IPv6 aos Servidores no Packet Tracer (Desktop $\rightarrow$ IP Configuration), utilizando as regras de endereçamento fixo definidas no [Quadro 1](#quadro-1-infraestrutura-de-serviços-por-campus):
 
 * **Configuração Específica:**
     * **Servidores DNS/DHCP (3º IP Válido):** O Servidor DNS (IPv4) a ser configurado é o seu próprio IP (Terceiro IP da LAN).
     * **Gateways:** Configure o Default Gateway IPv4 (Primeiro IP da LAN) e o Gateway Padrão IPv6 (`FE80::1`).
 
-### 4.2. Configuração do Serviço DHCP e IPv6 (1,0 Ponto)
+### 5.2. Configuração do Serviço DHCP e IPv6 (0,5 Ponto)
 
 1.  **Serviço DHCPv4:**
     * Configure o pool: **Default Gateway** (Primeiro IP), **DNS Server** (Terceiro IP).
@@ -162,20 +169,18 @@ Atribua manualmente os endereços IPv4 e IPv6 aos Servidores no Packet Tracer (D
     * Configure os clientes IPv6 (PCs) para usarem **SLAAC** para auto-configuração do endereço GUA.
     * Use o serviço **DHCPv6 stateless** do servidor *apenas para fornecer o endereço do Servidor DNS IPv6*.
 
-### 4.3. Configuração do Serviço Web (Nos Servidores Web)
+### 5.3. Configuração do Serviço Web (Nos Servidores Web) (0,5 Ponto)
 
 * Ative o serviço **HTTP** e substitua o arquivo `index.html` com o código HTML fornecido (Anexo A), personalizando o **Nome, RA e o Campus** correto.
 
-### 4.4. Configuração do Serviço DNS (Nos Servidores DNS/DHCP)
+### 5.4. Configuração do Serviço DNS (Nos Servidores DNS/DHCP) (0,5 Ponto)
 
-Ative o serviço **DNS** e configure o registro Tipo A para todos os três subdomínios, conforme o [**Quadro 3**](#quadro-3-arquitetura-de-serviços-por-campus-subdomínios-e-ips), garantindo que a resolução de nomes de campi remotos funcione.
+Ative o serviço **DNS** e configure o registro Tipo A e Tipo AAAA em cada um dos três servidores DNS para todos os servidores WEB, conforme o [**Quadro 3**](#quadro-3-arquitetura-de-serviços-por-campus-subdomínios-e-ips), garantindo que a resolução de nomes de campi remotos funcione.
 
 #### **Quadro 3: Arquitetura de Serviços por Campus (Subdomínios e IPs)**
 
 | Campus | Subdomínio | Servidor Web (IP GUA de Destino) |
 | :--- | :--- | :--- |
-| **Pato Branco** | `www.pb.utfpr.tec.br` | IP GUA do SRV-PB-WEB (4º IP de PB) |
-| **Francisco Beltrão** | `www.fb.utfpr.tec.br` | IP GUA do SRV-FB-WEB (4º IP de FB) |
-| **Dois Vizinhos** | `www.dv.utfpr.tec.br` | IP GUA do SRV-DV-WEB (4º IP de DV) |
-
-* **Instrução:** **CADA UM** dos três Servidores DNS deve ser configurado com o registro Tipo A para **todos os três subdomínios** listados no **Quadro 3**.
+| **Pato Branco** | `www.pb.utfpr.tec.br` | IPv4 e IPv6 GUA do SRV-PB-WEB (4º IP de PB) |
+| **Francisco Beltrão** | `www.fb.utfpr.tec.br` | IPv4 e IPv6 GUA do SRV-FB-WEB (4º IP de FB) |
+| **Dois Vizinhos** | `www.dv.utfpr.tec.br` | IPv4 e IPv6 GUA do SRV-DV-WEB (4º IP de DV) |
