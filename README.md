@@ -194,7 +194,7 @@ Ative o serviço **DNS** e configure o registro Tipo A e Tipo AAAA em cada um do
     * RA e Nome do aluno;
     * Documentação correspondente as Tarefas 1, 2 e 3;
     * Outras informações que achar relevante;
-    * Data da entrega: até às 23h59min do dia **28/10/2025**
+    * Data da entrega: até o início da aula do **28/10/2025**
         * Não será aceita entrega após o prazo;
         * Obs: no dia **29/10/2025, no início da manhã,** será disponibilizado o gabarito para conferência e ajustes caso necessário;
 * Entrega 2 – Entrega, via moodle, arquivo compactado nomeado trabalho-nomealuno.zip, contendo:
