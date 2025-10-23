@@ -184,3 +184,21 @@ Ative o serviço **DNS** e configure o registro Tipo A e Tipo AAAA em cada um do
 | **Pato Branco** | `www.pb.utfpr.tec.br` | IPv4 e IPv6 GUA do SRV-PB-WEB (4º IP de PB) |
 | **Francisco Beltrão** | `www.fb.utfpr.tec.br` | IPv4 e IPv6 GUA do SRV-FB-WEB (4º IP de FB) |
 | **Dois Vizinhos** | `www.dv.utfpr.tec.br` | IPv4 e IPv6 GUA do SRV-DV-WEB (4º IP de DV) |
+
+
+
+
+## Avaliação
+* A atividade é individual, porém, poderá ser feita em grupo! 
+* Entrega 1 - Entregar, via moodle, arquivo conforme o [modelo](trabalho-documentacao-modelo.md), nomeado como trabalho-documentacao-NomeAluno.md, em formato .md, conforme o modelo disponibilizado contendo:
+    * RA e Nome do aluno;
+    * Documentação correspondente as Tarefas 1, 2 e 3;
+    * Outras informações que achar relevante;
+    * Data da entrega: até às 23h59min do dia **28/10/2025**
+        * Não será aceita entrega após o prazo;
+        * Obs: no dia **29/10/2025, no início da manhã,** será disponibilizado o gabarito para conferência e ajustes caso necessário;
+* Entrega 2 – Entrega, via moodle, arquivo compactado nomeado trabalho-nomealuno.zip, contendo:
+	 * arquivo com a documentação da Entrega 1, corrigida, se for o caso;
+	 * arquivo em formato .pkt (Packet Tracer), nomeado como trabalho-topologia-NomeAluno.pkt com a topologia configurada e funcionando no Packet Tracer (Tarefas 4 a 7).
+	    * Data da entrega: a definir....;
+            * Não será aceita entrega após o prazo;
