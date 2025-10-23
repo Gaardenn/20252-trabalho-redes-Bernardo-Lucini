@@ -192,13 +192,16 @@ Ative o serviço **DNS** e configure o registro Tipo A e Tipo AAAA em cada um do
 * A atividade é individual, porém, poderá ser feita em grupo! 
 * Entrega 1 - Entregar, via moodle, arquivo conforme o [modelo](trabalho-documentacao-modelo.md), nomeado como trabalho-documentacao-NomeAluno.md, em formato .md, conforme o modelo disponibilizado contendo:
     * RA e Nome do aluno;
-    * Documentação correspondente as Tarefas 1, 2 e 3;
-    * Outras informações que achar relevante;
-    * Data da entrega: até o início da aula do **28/10/2025**
+    * Documentação correspondente as Tarefas 1 e 2;
+    * Data da entrega: até às **13h** do dia **28/10/2025**
         * Não será aceita entrega após o prazo;
-        * Obs: no dia **29/10/2025, no início da manhã,** será disponibilizado o gabarito para conferência e ajustes caso necessário;
-* Entrega 2 – Entrega, via moodle, arquivo compactado nomeado trabalho-nomealuno.zip, contendo:
+        * Obs: no dia **28/10/2025, após às 13h**, será disponibilizado o gabarito para conferência e correções caso necessário;
+* Entrega 2 - Entrega, via moodle, arquivo [modelo](trabalho-documentacao-modelo.md), contendo a resolução da *Tarefa 1 e 2 (corrigidas)* e da Tarefa 3.
+    * Data da entrega: até às **13h** do dia **04/10/2025**
+        * Não será aceita entrega após o prazo;
+        * Obs: no dia **04/10/2025, , após às 13h**, será disponibilizado o gabarito para conferência e correções caso necessário;
+* Entrega 3 – Entrega, via moodle, arquivo compactado nomeado trabalho-nomealuno.zip, contendo:
 	 * arquivo com a documentação da Entrega 1, corrigida, se for o caso;
 	 * arquivo em formato .pkt (Packet Tracer), nomeado como trabalho-topologia-NomeAluno.pkt com a topologia configurada e funcionando no Packet Tracer (Tarefas 4 a 7).
-	    * Data da entrega: a definir....;
+	    * Data da entrega: *a definir... (antes da prova)*;
             * Não será aceita entrega após o prazo;
