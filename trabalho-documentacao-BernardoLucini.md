@@ -11,17 +11,17 @@
 
 | Sub- Rede | IPv4 - Sub-Rede | IPv4 - Máscara | IPv6 - Sub-Rede/Prefixo |
 | :---: | :---: | :---: | :---: |
-| **Pato Branco** | 200.136.73.0 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
-| **Francisco Beltrão** | 200.136.73.64 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
-| **Dois Vizinhos** | 200.136.73.92 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
-| **Toledo** | 200.136.73.128 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
-| **Medianeira** | 200.136.73.160 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
-| **Santa Helena** | 200.136.73.192 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
-| **pb-vit** | 200.136.73.224 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
-| **vit-fb** | 200.136.73.228 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
-| **fb-ita** | 200.136.73.232 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
-| **ita-pb** | 200.136.73.236 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
-| **ita-dv** | 200.136.73.240 | 255.255.255.*(preencher)* | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+| **Pato Branco** | 200.136.73.0 | 255.255.255.192 | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **Francisco Beltrão** | 200.136.73.64 | 255.255.255.224 | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **Dois Vizinhos** | 200.136.73.92 | 255.255.255.224 | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **Toledo** | 200.136.73.128 | 255.255.255.224 | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **Medianeira** | 200.136.73.160 | 255.255.255.224 | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **Santa Helena** | 200.136.73.192 | 255.255.255.224 | 2001:DB8:CAFE:**NN** *(preencher)* ::/64 |
+| **pb-vit** | 200.136.73.224 | 255.255.255.252 | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+| **vit-fb** | 200.136.73.228 | 255.255.255.252 | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+| **fb-ita** | 200.136.73.232 | 255.255.255.252 | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+| **ita-pb** | 200.136.73.236 | 255.255.255.252 | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
+| **ita-dv** | 200.136.73.240 | 255.255.255.252 | 2001:DB8:CAFE:**NN**FF:: *(preencher)* :0/112 |
 
 
 
