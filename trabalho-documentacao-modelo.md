@@ -1,14 +1,13 @@
 # Trabalho: Integração de habilidades - 2025/2
 ## **Disciplina:** Redes de Computadores
 ### **Cursos:** Engenharia de Computação / Tecnologia em Análise e Desenvolvimento de Sistemas
-**Nome:**
-**RA:**
+**Nome:Bernardo Lucini**
+**RA:A2773473**
 
 ---
 
 ## 📑 Tarefa 1: Tabela de Sub-Redes (0,5 Ponto)
 
-*Preencha o valor de **N** e **NN** com os dois últimos dígitos do seu RA.*
 
 | Sub- Rede | IPv4 - Sub-Rede | IPv4 - Máscara | IPv6 - Sub-Rede/Prefixo |
 | :---: | :---: | :---: | :---: |
