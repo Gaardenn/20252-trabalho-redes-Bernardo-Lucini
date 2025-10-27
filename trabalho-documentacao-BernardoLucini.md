@@ -136,7 +136,7 @@
 
 ### Checklist para Entrega 1
 
-- [ ] Tarefa 1: Tabela de Sub-Redes preenchida corretamente
+- [X] Tarefa 1: Tabela de Sub-Redes preenchida corretamente
 - [ ] Tarefa 2: Tabela de Endereçamento preenchida corretamente para todos os dispositivos de infraestrutura
 - [ ] Tarefa 3: Tabela de Roteamento completa para todos os roteadores
 - [ ] Documento salvo no formato .md
