@@ -34,15 +34,15 @@
 
 | Dispositivo | Interface | IPv4 | IPv4 - Máscara | IPv4 - Gateway | IPv6/Prefixo (GUA) | IPv6 (LLA) | IPv6-Gateway |
 | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| **SRV-PB-DNS-DHCP** | NIC | 200.136.73.3 | 255.255.255.192 | 200.136.73.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
-| **SRV-PB-WEB** | NIC | 200.136.73.4 | 255.255.255.192 | 200.136.73.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
-| **SRV-FB-DNS-DHCP** | NIC | 200.136.73.67 | 255.255.255.224 | 200.136.73.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
-| **SRV-FB-WEB** | NIC | 200.136.73.68 | 255.255.255.224 | 200.136.73.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
-| **SRV-DV-DNS-DHCP** | NIC | 200.136.73.99 | 255.255.255.224 | 200.136.73.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
-| **SRV-DV-WEB** | NIC | 200.136.73.100 | 255.255.255.224 | 200.136.73.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
-| **Switch-Pato Branco** | SVI | 200.136.73.2 | 255.255.255.192 | 200.136.73.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
-| **Switch-Fco. Beltrão** | SVI | 200.136.73.66 | 255.255.255.224 | 200.136.73.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
-| **Switch-Dois Vizinhos** | SVI | 200.136.73.98 | 255.255.255.224 | 200.136.73.(preencher) | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
+| **SRV-PB-DNS-DHCP** | NIC | 200.136.73.3 | 255.255.255.192 | 200.136.73.1 | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
+| **SRV-PB-WEB** | NIC | 200.136.73.4 | 255.255.255.192 | 200.136.73.1 | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
+| **SRV-FB-DNS-DHCP** | NIC | 200.136.73.67 | 255.255.255.224 | 200.136.73.65 | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
+| **SRV-FB-WEB** | NIC | 200.136.73.68 | 255.255.255.224 | 200.136.73.65 | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
+| **SRV-DV-DNS-DHCP** | NIC | 200.136.73.99 | 255.255.255.224 | 200.136.73.97 | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
+| **SRV-DV-WEB** | NIC | 200.136.73.100 | 255.255.255.224 | 200.136.73.97 | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
+| **Switch-Pato Branco** | SVI | 200.136.73.2 | 255.255.255.192 | 200.136.73.1 | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
+| **Switch-Fco. Beltrão** | SVI | 200.136.73.66 | 255.255.255.224 | 200.136.73.65 | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
+| **Switch-Dois Vizinhos** | SVI | 200.136.73.98 | 255.255.255.224 | 200.136.73.97 | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | EUI-64 | *FE80::1* |
 | **Roteador-Pato Branco** | Fa0/0 | 200.136.73.1 | 255.255.255.192 | **-** | 2001:DB8:CAFE:**NN**(preencher)::(preencher)/64 | *FE80::1* | **-** |
 | **Roteador-Pato Branco** | Se0/0/0 | 200.136.73.225 | 255.255.255.252 | **-** | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 | **-** |
 | **Roteador-Pato Branco** | Se0/0/1 | 200.136.73.238 | 255.255.255.252 | **-** | 2001:DB8:CAFE:**NN**FF::(preencher):(preencher)/112 | EUI-64 | **-** |
