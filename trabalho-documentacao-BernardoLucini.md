@@ -158,19 +158,29 @@
 
 | Rede de Destino | Máscara | Próximo Salto | Interface de Saída |
 | :---: | :---: | :---: | :---: |
-| (preencher) | (preencher) | (preencher) | (preencher) |
+| 200.136.73.0 | 255.255.255.224 | 200.136.73.241 | Fa0/1 |
+| 200.136.73.64 | 255.255.255.224 | 200.136.73.241 | Fa0/1 |
+| 200.136.73.224 | 255.255.255.252 | 200.136.73.241 | Fa0/1 |
+| 200.136.73.228 | 255.255.255.252 | 200.136.73.241 | Fa0/1 |
+| 200.136.73.232 | 255.255.255.252 | 200.136.73.241 | Fa0/1 |
+| 200.136.73.236 | 255.255.255.252 | 200.136.73.241 | Fa0/1 |
 
 #### IPv6
 
 | Rede de Destino /Prefixo | Próximo Salto | Interface de Saída |
 | :---: | :---: | :---: |
-| (preencher) | (preencher) | (preencher) |
+| 2001:DB8:CAFE:7300::/64 | 2001:DB8:CAFE:73FF::4:1 | Fa0/1 |
+| 2001:DB8:CAFE:7301::/64 | 2001:DB8:CAFE:73FF::4:1 | Fa0/1 |
+| 2001:DB8:CAFE:73FF::/112 | 2001:DB8:CAFE:73FF::4:1 | Fa0/1 |
+| 2001:DB8:CAFE:73FF::1:0/112 | 2001:DB8:CAFE:73FF::4:1 | Fa0/1 |
+| 2001:DB8:CAFE:73FF::2:0/112 | 2001:DB8:CAFE:73FF::4:1 | Fa0/1 |
+| 2001:DB8:CAFE:73FF::3:0/112 | 2001:DB8:CAFE:73FF::4:1 | Fa0/1 |
 
 ---
 
 ### Checklist para Entrega 1
 
-- [x] Tarefa 1: Tabela de Sub-Redes preenchida corretamente
-- [ ] Tarefa 2: Tabela de Endereçamento preenchida corretamente para todos os dispositivos de infraestrutura
-- [ ] Tarefa 3: Tabela de Roteamento completa para todos os roteadores
-- [ ] Documento salvo no formato .md
+- [X] Tarefa 1: Tabela de Sub-Redes preenchida corretamente
+- [x] Tarefa 2: Tabela de Endereçamento preenchida corretamente para todos os dispositivos de infraestrutura
+- [x] Tarefa 3: Tabela de Roteamento completa para todos os roteadores
+- [x] Documento salvo no formato .md
