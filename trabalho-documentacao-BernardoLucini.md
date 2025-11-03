@@ -78,7 +78,11 @@
 
 | Rede de Destino /Prefixo | Próximo Salto | Interface de Saída |
 | :---: | :---: | :---: |
-| (preencher) | (preencher) | (preencher) |
+| 2001:DB8:CAFE:7301::/64 | 2001:DB8:CAFE:73FF::2 | Se0/0/0 |
+| 2001:DB8:CAFE:7302::/64 | 2001:DB8:CAFE:73FF::2 | Se0/0/0 |
+| 2001:DB8:CAFE:73FF::1:0/112 | 2001:DB8:CAFE:73FF::2 | Se0/0/0 |
+| 2001:DB8:CAFE:73FF::2:0/112 | 2001:DB8:CAFE:73FF::2 | Se0/0/0 |
+| 2001:DB8:CAFE:73FF::4:0/112 | 2001:DB8:CAFE:73FF::2 | Se0/0/0 |
 
 ### Roteador Francisco Beltrão
 
