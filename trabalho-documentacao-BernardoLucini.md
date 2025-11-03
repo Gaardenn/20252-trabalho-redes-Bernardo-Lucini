@@ -136,13 +136,21 @@
 
 | Rede de Destino | Máscara | Próximo Salto | Interface de Saída |
 | :---: | :---: | :---: | :---: |
-| (preencher) | (preencher) | (preencher) | (preencher) |
+| 200.136.73.0 | 255.255.255.224 | 200.136.73.238 | Se0/0/0 |
+| 200.136.73.64 | 255.255.255.224 | 200.136.73.238 | Se0/0/0 |
+| 200.136.73.96 | 255.255.255.224 | 200.136.73.242 | Fa0/1 |
+| 200.136.73.224 | 255.255.255.252 | 200.136.73.238 | Se0/0/0 |
+| 200.136.73.228 | 255.255.255.252 | 200.136.73.238 | Se0/0/0 |
 
 #### IPv6
 
 | Rede de Destino /Prefixo | Próximo Salto | Interface de Saída |
 | :---: | :---: | :---: |
-| (preencher) | (preencher) | (preencher) |
+| 2001:DB8:CAFE:7300::/64 | 2001:DB8:CAFE:73FF::3:2 | Se0/0/0 |
+| 2001:DB8:CAFE:7301::/64 | 2001:DB8:CAFE:73FF::3:2 | Se0/0/0 |
+| 2001:DB8:CAFE:7302::/64 | 2001:DB8:CAFE:73FF::4:2 | Fa0/1 |
+| 2001:DB8:CAFE:73FF::/112 | 2001:DB8:CAFE:73FF::3:2 | Se0/0/0 |
+| 2001:DB8:CAFE:73FF::1:0/112 | 2001:DB8:CAFE:73FF::3:2 | Se0/0/0 |
 
 ### Roteador Dois Vizinhos
 
